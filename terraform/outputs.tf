@@ -1,4 +1,3 @@
-```hcl
 output "vpc_id" {
   value       = aws_vpc.cloudops.id
   description = "ID of the VPC"
@@ -28,4 +27,3 @@ output "app_private_ip" {
   value       = aws_instance.app.private_ip
   description = "Private IP of the app server"
 }
-```
