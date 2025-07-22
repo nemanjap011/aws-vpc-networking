@@ -1,4 +1,3 @@
-```hcl
 ########################
 # Networking
 ########################
@@ -188,4 +187,3 @@ resource "aws_instance" "app" {
 
   tags = merge(var.tags, { Name = "app-server-private" })
 }
-```
