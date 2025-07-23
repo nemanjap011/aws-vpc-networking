@@ -1,6 +1,7 @@
 region          = "us-east-1"
 key_pair_name   = "your-ec2-keypair-name"
-admin_ip        = "your.public.ip.address/32" # You can find your Public IP by accessing https://www.whatismyip.com/
+# You can find your public IP at https://www.whatismyip.com/
+admin_ip        = "your.public.ip.address/32"
 # Optional overrides
 # vpc_cidr            = "10.0.0.0/16"
 # public_subnet_cidr  = "10.0.1.0/24"
