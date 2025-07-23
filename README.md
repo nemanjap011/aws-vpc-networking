@@ -79,9 +79,9 @@ This project demonstrates how to build a secure, production-grade network enviro
 ## SSH Access Workflow
 
 ### Step 1: SSH from Local → Jump Host
-```bash
+
 ssh -i ~/MyKeyPair.pem ec2-user@<jump-host-public-ip>
-```bash
+
 ### Step 2: SSH from Bastion Host to the Private EC2
 
 On the bastion (jump) host:
