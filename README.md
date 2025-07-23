@@ -20,6 +20,7 @@ This project demonstrates how to build a secure, production-grade network enviro
   - Bastion (Jump) Host in public subnet
   - Private EC2 instance accessible only through the Bastion Host
 - Secure all resources using appropriate routing tables and security groups
+- Use **Terraform** to provision all infrastructure as code
 
 ---
 
