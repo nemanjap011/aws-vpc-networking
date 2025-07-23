@@ -80,7 +80,7 @@ This project demonstrates how to build a secure, production-grade network enviro
 
 ### Step 1: SSH from Local → Jump Host
 
-ssh -i ~/MyKeyPair.pem ec2-user@<jump-host-public-ip>
+ssh -i ~/MyKeyPair.pem ec2-user@<jump-host-public_ip>
 
 ### Step 2: SSH from Bastion Host to the Private EC2
 
