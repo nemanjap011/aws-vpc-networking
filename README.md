@@ -1,5 +1,7 @@
 # AWS VPC Networking: Public/Private Subnets with Bastion Host and NAT Gateway
 
+> **Tools Used**: Terraform (Infrastructure as Code), AWS VPC, EC2, Security Groups, NAT Gateway, Internet Gateway
+
 ## Project Overview
 
 This project demonstrates how to build a secure, production-grade network environment in AWS using a custom VPC, public and private subnets, EC2 instances, and NAT Gateway. The goal is to restrict direct internet access to internal resources while still enabling outbound access and remote administration using a Bastion (Jump) Host.
